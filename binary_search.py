@@ -1,3 +1,12 @@
+import time
+
+start_time = time.time()
+result = binary_search(array, target)
+end_time = time.time()
+
+print(f"Search completed in {end_time - start_time:.6f} seconds.")
+
+
 def generate_array(start, end):
     """
     Generate an array of numbers with a difference of 2 between consecutive numbers.
